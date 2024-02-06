@@ -1,17 +1,24 @@
-.card {
-    background: red;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: var(--card-width);
-    height: var(--card-height);
-    padding: 3px;
-    position: relative;
-    border-radius: 6px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    display: flex;
-    font-size: 1.5em;
-    color: rgb(88 199 250 / 0%);
-  }
+#page-container {
+  background: url('../images/cat-background.png');
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+#fact-container {
+  background: white;
+  font-size: 1rem;
+  padding-top: 2rem;
+  border: 5px solid black;
+  /* height:40vh; */
+}
+
+#picture-container {
+  background: black;
+  border: 5px solid black;
+  /* height:60vh; */
+}
+
+#cat-image {
+  /* height: 60vh; */
+  width: 100%;
+}
